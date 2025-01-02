@@ -537,21 +537,34 @@
     source-map "^0.6.1"
     yaml-eslint-parser "^0.3.2"
 
-"@intlify/core-base@9.14.0":
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/@intlify/core-base/-/core-base-9.14.0.tgz#63ce687a6560c0af6a16cb567d9d8a1ea1a5a65e"
-  integrity sha512-zJn0imh9HIsZZUtt9v8T16PeVstPv6bP2YzlrYJwoF8F30gs4brZBwW2KK6EI5WYKFi3NeqX6+UU4gniz5TkGg==
+"@intlify/core-base@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@intlify/core-base/-/core-base-11.0.1.tgz#f84564a5bd313879b32cea70e6e3d2fe9e1f128b"
+  integrity sha512-NAmhw1l/llM0HZRpagR/ChJTNymW4ll6/4EDSJML5c8L5Hl/+k6UyF8EIgE6DeHpfheQujkSRngauViHqq6jJQ==
   dependencies:
-    "@intlify/message-compiler" "9.14.0"
-    "@intlify/shared" "9.14.0"
+    "@intlify/message-compiler" "11.0.1"
+    "@intlify/shared" "11.0.1"
 
-"@intlify/message-compiler@9.14.0", "@intlify/message-compiler@^9.1.0":
+"@intlify/message-compiler@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-11.0.1.tgz#7c159642e3a3c160dd25a15c17127c69d56b0561"
+  integrity sha512-5RFH8x+Mn3mbjcHXnb6KCXGiczBdiQkWkv99iiA0JpKrNuTAQeW59Pjq/uObMB0eR0shnKYGTkIJxum+DbL3sw==
+  dependencies:
+    "@intlify/shared" "11.0.1"
+    source-map-js "^1.0.2"
+
+"@intlify/message-compiler@^9.1.0":
   version "9.14.0"
   resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-9.14.0.tgz#e767141dd12862b3c1bf02ab5fc4852792812381"
   integrity sha512-sXNsoMI0YsipSXW8SR75drmVK56tnJHoYbPXUv2Cf9lz6FzvwsosFm6JtC1oQZI/kU+n7qx0qRrEWkeYFTgETA==
   dependencies:
     "@intlify/shared" "9.14.0"
     source-map-js "^1.0.2"
+
+"@intlify/shared@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-11.0.1.tgz#25ff7f038bbae903e2bc75bf862b2380fde07cc8"
+  integrity sha512-lH164+aDDptHZ3dBDbIhRa1dOPQUp+83iugpc+1upTOWCnwyC1PVis6rSWNMMJ8VQxvtHQB9JMib48K55y0PvQ==
 
 "@intlify/shared@9.14.0", "@intlify/shared@^9.1.0":
   version "9.14.0"
@@ -2409,9 +2422,9 @@ cross-env@^7.0.3:
     cross-spawn "^7.0.1"
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
-  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.6.tgz#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
+  integrity sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -4760,10 +4773,10 @@ nanoid@^3.3.7:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
-nanoid@^5.0.3:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.0.7.tgz#6452e8c5a816861fd9d2b898399f7e5fd6944cc6"
-  integrity sha512-oLxFY2gd2IqnjcYyOXD8XGCftpGtZP2AbHbOkthDkvRywH5ayNtPVy9YlOPcHckXzbLTCHpkb7FB+yuxKV13pQ==
+nanoid@^5.0.9:
+  version "5.0.9"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.0.9.tgz#977dcbaac055430ce7b1e19cf0130cea91a20e50"
+  integrity sha512-Aooyr6MXU6HpvvWXKoVoXwKMs/KyVakWwg7xQfv5/S/RIgJMy0Ifa45H9qqYy7pTCszrHzP21Uk4PZq2HpEM8Q==
 
 natural-compare-lite@^1.4.0:
   version "1.4.0"
@@ -5112,17 +5125,10 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-path2d-polyfill@^2.0.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/path2d-polyfill/-/path2d-polyfill-2.1.1.tgz#6098b7bf2fc24c306c6377bcd558b17ba437ea27"
-  integrity sha512-4Rka5lN+rY/p0CdD8+E+BFv51lFaFvJOrlOhyQ+zjzyQrzyh3ozmxd1vVGGDdIbUFSBtIZLSnspxTgPT0iJhvA==
-  dependencies:
-    path2d "0.1.1"
-
-path2d@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/path2d/-/path2d-0.1.1.tgz#d3c3886cd2252fb2a7830c27ea7bb9a862d937ea"
-  integrity sha512-/+S03c8AGsDYKKBtRDqieTJv2GlkMb0bWjnqOgtF6MkjdUQ9a8ARAtxWf9NgKLGm2+WQr6+/tqJdU8HNGsIDoA==
+path2d@^0.2.0:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/path2d/-/path2d-0.2.2.tgz#cc85d61ed7827e7863a2ee36713d4b5315a3d85d"
+  integrity sha512-+vnG6S4dYcYxZd+CZxzXCNKdELYZSKfohrk98yajCo1PtRoDgCTrrwOvK1GT0UoAdVszagDVllQc0U1vaX4NUQ==
 
 pathe@^1.1.1, pathe@^1.1.2:
   version "1.1.2"
@@ -5141,13 +5147,13 @@ pause-stream@0.0.11:
   dependencies:
     through "~2.3"
 
-pdfjs-dist@3.11.174:
-  version "3.11.174"
-  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz#5ff47b80f2d58c8dd0d74f615e7c6a7e7e704c4b"
-  integrity sha512-TdTZPf1trZ8/UFu5Cx/GXB7GZM30LT+wWUNfsi6Bq8ePLnb+woNKtDymI2mxZYBpMbonNFqKmiz684DIfnd8dA==
+pdfjs-dist@4.2.67:
+  version "4.2.67"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-4.2.67.tgz#dd2a65a4b00d95cd4bc2c1f6a27c5e9eb31d512a"
+  integrity sha512-rJmuBDFpD7cqC8WIkQUEClyB4UAH05K4AsyewToMTp2gSy3Rrx8c1ydAVqlJlGv3yZSOrhEERQU/4ScQQFlLHA==
   optionalDependencies:
     canvas "^2.11.2"
-    path2d-polyfill "^2.0.1"
+    path2d "^0.2.0"
 
 pend@~1.2.0:
   version "1.2.0"
@@ -6488,13 +6494,13 @@ vue-eslint-parser@^9.4.3:
     lodash "^4.17.21"
     semver "^7.3.6"
 
-vue-i18n@^9.2.2:
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-9.14.0.tgz#d6f1b3d95bfc4f40e630ff9456c78ab5becfd933"
-  integrity sha512-LxmpRuCt2rI8gqU+kxeflRZMQn4D5+4M3oP3PWZdowW/ePJraHqhF7p4CuaME52mUxdw3Mmy2yAUKgfZYgCRjA==
+vue-i18n@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-11.0.1.tgz#aa4c20d6f7c127bc46028ae3325659be47dd338e"
+  integrity sha512-pWAT8CusK8q9/EpN7V3oxwHwxWm6+Kp2PeTZmRGvdZTkUzMQDpbbmHp0TwQ8xw04XKm23cr6B4GL72y3W8Yekg==
   dependencies:
-    "@intlify/core-base" "9.14.0"
-    "@intlify/shared" "9.14.0"
+    "@intlify/core-base" "11.0.1"
+    "@intlify/shared" "11.0.1"
     "@vue/devtools-api" "^6.5.0"
 
 vue-router@^4.0.0:
