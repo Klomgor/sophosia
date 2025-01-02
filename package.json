@@ -37,8 +37,8 @@
     "katex": "^0.16.9",
     "konva": "^9.2.0",
     "lodash": "^4.17.21",
-    "nanoid": "^5.0.3",
-    "pdfjs-dist": "3.11.174",
+    "nanoid": "^5.0.9",
+    "pdfjs-dist": "4.2.67",
     "pinia": "^2.0.11",
     "quasar": "^2.6.0",
     "react": "^18.2.0",
@@ -50,7 +50,7 @@
     "vditor": "^3.9.8",
     "veaury": "^2.3.16",
     "vue": "^3.4.21",
-    "vue-i18n": "^9.2.2",
+    "vue-i18n": "^11.0.1",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
